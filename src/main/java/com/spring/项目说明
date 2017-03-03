@@ -1,0 +1,10 @@
+1.WebSocket为浏览器和服务器提供了双工异步通信的功能，即浏览器可以向服务器端
+发送消息，服务器端可以向浏览器端发送消息，WebSocket需要浏览器的支持。
+WebSocket是通过一个socket来实现双工异步通信能力的。
+Spring Boot对内嵌的Tomcat7/8,Jetty9和Undertow使用WebSocket提供了支持，
+配置源码存于org.springframework.boot.autoconfigure.websocket下。
+
+2.Spring Boot为WebSocket提供的stater pom是spring-boot-starter-websocket.
+
+3.本项目依赖于Thymeleaf和WebSocket.
+
